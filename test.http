@@ -1,0 +1,17 @@
+POST http://127.0.0.1:8000/api/generateSessionAndTData
+Content-Type: application/json
+
+{
+  "phone_number": "+84935568878",
+  "password": "phudk123"
+}
+###
+GET http://127.0.0.1:8000/api/test
+
+###
+POST http://127.0.0.1:8000/api/read_messages/+84935568878
+Content-Type: application/json
+
+{
+    "limit": 10
+}

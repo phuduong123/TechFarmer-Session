@@ -1,0 +1,16 @@
+{
+  "name": "my_nicegui_app",
+  "version": "1.0.0",
+  "description": "A NiceGUI desktop app with Tailwind CSS",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.15"
+  }
+}
